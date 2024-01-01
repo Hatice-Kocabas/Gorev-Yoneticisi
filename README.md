@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Görev Yöneticisi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, kullanıcıların kişisel veya işle ilgili görevleri yönetebileceği bir web uygulamasıdır. Bu uygulama, React ve TypeScript kullanılarak geliştirilmiştir ve JSONPlaceholder'ın sağladığı yapılacaklar listesi API'si ile entegre edilmiştir.
 
-## Available Scripts
+## Genel Bakış
 
-In the project directory, you can run:
+Proje, aşağıdaki özellikleri içermektedir:
 
-### `npm start`
+- Görev Listeleme: Sistemde kayıtlı tüm görevleri listeleyen bir görünüm.
+- Görev Ekleme: Yeni görev eklemek için bir form sağlar.
+- Görev Güncelleme/Silme: Mevcut görevlerin bilgilerini düzenleme ve silme işlevi.
+- Kullanıcılarla Görev Paylaşımı: Görevleri farklı kullanıcılarla ilişkilendirme.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Teknolojik Gereklilikler
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Frontend:
 
-### `npm test`
+- React (Hooks ve Context API)
+- TypeScript
+- Styled Components veya benzeri bir CSS-in-JS kütüphanesi
+- Axios veya Fetch API (HTTP istekleri için)
+- React Query
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend:
 
-### `npm run build`
+- JSONPlaceholder REST API
+  - Görevler için: /todos
+  - Kullanıcılar için: /users
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Kurulum
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Proje klasörünü yerel ortamınıza klonlayın.
+2. Terminalde proje klasörüne gidin: `cd proje-klasoru`
+3. Gerekli bağımlılıkları yüklemek için: `npm install` veya `yarn install`
+4. Uygulamayı başlatmak için: `npm start` veya `yarn start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Görsel Tasarım
 
-### `npm run eject`
+- Kullanıcı dostu, sade ve modern bir arayüz.
+- Görevler ve kullanıcılar için net ve kullanışlı bir liste görünümü.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Proje Ekran Görüntüleri
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![ss1](https://github.com/Hatice-Kocabas/Gorev-Yoneticisi/assets/93576281/914b17cf-3bec-497a-a2ef-7137ad1356a9)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![ss2](https://github.com/Hatice-Kocabas/Gorev-Yoneticisi/assets/93576281/fd977adc-dcad-4b55-bdf2-f101528218ce)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![ss3](https://github.com/Hatice-Kocabas/Gorev-Yoneticisi/assets/93576281/df539a95-b17b-4b14-8711-3f544b24bb0b)
 
-## Learn More
+![ss4](https://github.com/Hatice-Kocabas/Gorev-Yoneticisi/assets/93576281/5b56e13b-031a-43b7-9f3b-e0cddae0e7f8)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
